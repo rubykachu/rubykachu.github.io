@@ -5,12 +5,12 @@ date:   2018-11-25 19:30:18 +0700
 categories: RubyOnRails
 tags: Rails, Scope, ActiveRecord
 author: Minh Tang Q.
+permalink: /scope-trong-active-record-su-dung-nhu-the-nao-cho-dung
 ---
 
 * content
 {:toc}
 
-permalink: /scope-trong-active-record-su-dung-nhu-the-nao-cho-dung
 
 Đối với developer Rails thì việc sử dụng scope và class method khá quen thuộc, nhưng sử dụng nó như thế nào cho đúng thì ta cùng xem xét ví dụ bên dưới:
 ```ruby
