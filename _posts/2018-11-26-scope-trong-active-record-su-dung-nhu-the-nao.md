@@ -5,7 +5,7 @@ date:   2018-11-25 19:30:18 +0700
 categories: RubyOnRails
 tags: Rails, Scope, ActiveRecord
 author: Minh Tang Q.
-permalink: /scope-trong-active-record-su-dung-nhu-the-nao-cho-dung
+permalink: /scope-trong-active-record-su-dung-nhu-the-nao-cho-dung.html
 ---
 
 * content
