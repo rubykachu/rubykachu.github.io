@@ -6,8 +6,8 @@
 
 # Ignore bundler config.
 .DS_Store
-_site
-.sass-cache
+/_site
+/.sass-cache
 .jekyll-metadata
 .idea
-node_modules
+/node_modules
