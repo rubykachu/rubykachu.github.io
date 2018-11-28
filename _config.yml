@@ -18,9 +18,7 @@ permalink: /:year/:month/:day/:title/
 twitter_username: vhquocminhit
 facebook_username: tangquocminh
 github_username:  rubykachu
-email: minh.tang@asiantech.vn
-# weibo_username: 3115521wh
-# zhihu_username: rubykachu
+email: vhquocminhit@gmail.com
 # linkedIn_username: rubykachu
 # dribbble_username:
 
@@ -30,7 +28,7 @@ description_footer: Chia sẽ kỹ thuật lập trình
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 # duoshuo_shortname: #hygblog
-disqus_shortname: vhquocminhit
+disqus_shortname: https-rubykachu-github-io
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
