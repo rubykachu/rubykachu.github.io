@@ -47,4 +47,5 @@ excerpt_separator: "\n\n\n\n"
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 paginate: 6
