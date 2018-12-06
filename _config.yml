@@ -49,3 +49,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 paginate: 6
+
+jekyll_admin:
+  hidden_links:
+    - staticfiles
+    - datafiles
+    - configuration
