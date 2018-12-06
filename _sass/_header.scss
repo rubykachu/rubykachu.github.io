@@ -19,6 +19,13 @@ header {
         width: 1140px;
         margin: 0 auto;
         line-height: 52px;
+        .logo {
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: -6px;
+        }
         .brand {
             font-size: 18px;
         }
