@@ -4,7 +4,7 @@ title:  "Giữ thứ tự truy vấn khi dùng mệnh đề WHERE IN()"
 date:   2018-12-01 10:21:22 +0700
 categories: MySQL
 tags: MySQL, Database, CSDL
-author: Minh Tang Q.
+author: minhtang
 description: "Khi truy vấn với mệnh đề WHERE IN() thì kết quả nào được tìm thấy trước sẽ cho ra trước. Vậy làm thế nào để có thể truy vấn mà giữ nguyên thứ tự record trong CSDL"
 ---
 

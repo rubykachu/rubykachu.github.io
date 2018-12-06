@@ -1,24 +1,27 @@
-<div class="post-author">
-  <div class="author-img">
-    <img alt="" src="https://secure.gravatar.com/avatar/7946a77f96c665fd1456bc39814711a3?s=100&amp;d=identicon&amp;r=g" srcset="https://secure.gravatar.com/avatar/7946a77f96c665fd1456bc39814711a3?s=200&amp;d=identicon&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">
-  </div>
-  <div class="author-content">
-    <h5>
-      <a href="https://thachpham.com/author/phamngocthach" title="Đăng bởi Thạch Phạm" rel="author" data-wpel-link="internal">
-        {{page.author}}
+{% assign author = site.data.authors[page.author] %}
+{% if author %}
+  <div class="post-author">
+    <div class="author-img">
+      <img alt="{{ author.name }}" src="{{ author.avatar }}" class="avatar avatar-100 photo" height="100" width="100">
+    </div>
+    <div class="author-content">
+      <h5>
+        <a href="https://thachpham.com/author/phamngocthach" title="Đăng bởi Thạch Phạm" rel="author" data-wpel-link="internal">
+          {{ author.name }}
+        </a>
+      </h5>
+      <p>{{ author.description }}</p>
+      <a target="_blank" class="author-social" href="https://thachpham.com" data-wpel-link="internal">
+        <i class="fa fa-git"></i>
       </a>
-    </h5>
-    <p>AZDIGI's CEO. Đam mê công nghệ, WordPress, Server và xăm mình nữa.</p>
-    <a target="_blank" class="author-social" href="https://thachpham.com" data-wpel-link="internal">
-      <i class="fa fa-globe"></i>
-    </a>
 
-    <a target="_blank" class="author-social" href="https://facebook.com/thachpham92" data-wpel-link="external" rel="nofollow external noopener noreferrer">
-      <i class="fa fa-facebook"></i>
-    </a>
+      <a target="_blank" class="author-social" href="https://facebook.com/thachpham92" data-wpel-link="external" rel="nofollow external noopener noreferrer">
+        <i class="fa fa-facebook"></i>
+      </a>
 
-    <a target="_blank" class="author-social" href="https://twitter.com/thachpham92" data-wpel-link="external" rel="nofollow external noopener noreferrer">
-      <i class="fa fa-twitter"></i>
-    </a>
+      <a target="_blank" class="author-social" href="https://twitter.com/thachpham92" data-wpel-link="external" rel="nofollow external noopener noreferrer">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </div>
   </div>
-</div>
+{% endif %}

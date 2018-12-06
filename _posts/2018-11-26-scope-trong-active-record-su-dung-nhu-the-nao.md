@@ -4,7 +4,7 @@ title:  "Scope trong Active Record sử dụng như thế nào cho đúng"
 date:   2018-11-25 19:30:18 +0700
 categories: RubyOnRails
 tags: Rails, Scope, ActiveRecord
-author: Minh Tang Q.
+author: minhtang
 ---
 
 * content

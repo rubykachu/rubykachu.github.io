@@ -11,10 +11,11 @@ layout: default
                 <i class="fa fa-calendar"></i>{{ page.date | date: "%F" }}
             </div>
 
+            {% if page.author %}
             <div class="label-card">
-                {% if page.author %}<i class="fa fa-user"></i>{{ page.author }}
-                {% endif %}
+                <i class="fa fa-user"></i>{{ site.data.authors[page.author].name }}
             </div>
+            {% endif %}
 
             <div class="label-card">
                 {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
@@ -24,9 +25,11 @@ layout: default
             {% include category.html %}
             </div>
 
+            {% if page.tags %}
             <div class="label-card">
-            {% include tag.html %}
+                {% include tag.html %}
             </div>
+            {% endif %}
 
         </div>
         <hr>
@@ -63,6 +66,8 @@ layout: default
         {% endif %}
 
         {% include previousAndNext.html %}
+
+        {% include bioAuthor.html %}
 
         <h2 id="comments">Bình luận</h2>
         {% include comments.html %}

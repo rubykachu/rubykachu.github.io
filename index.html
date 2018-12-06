@@ -18,7 +18,7 @@ layout: default
                         <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
                     </div>
                     <div class="label-card">
-                        {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
+                        {% if post.author %}<i class="fa fa-user"></i>{{ site.data.authors[page.author].name }}
                         {% endif %}
                     </div>
                     <div class="label-card">
