@@ -85,6 +85,21 @@
                 i {
                     margin-right: 3px;
                 }
+                .content-ul {
+                    &.contributors {
+                        padding-left: 15px;
+                        li {
+                            list-style: none;
+                            display: inline-block;
+                            margin-right: 3px;
+                        }
+                        img {
+                            border-radius: 100%;
+                            width: 32px;
+                            height: 32px;
+                        }
+                    }
+                }
                 .content-ul[cate] {
                     overflow: hidden;
                     list-style: none;

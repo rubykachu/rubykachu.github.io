@@ -6,4 +6,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate'
   gem 'jekyll-admin'
+  gem 'octopress-debugger'
 end

@@ -1,0 +1,16 @@
+{% assign authors = site.data.authors %}
+
+{% if authors %}
+    <div>
+        <i class="fa fa-users"></i>
+        Contributors
+    </div>
+    <ul class="content-ul contributors">
+        {% for author in authors %}
+          {% assign auth = author.last %}
+          <li><a target="_blank" href="{{ auth['facebook'] }}" rel="nofollow external noopener noreferrer" title="{{ auth['name'] }}">
+              <img src="{{ auth['avatar'] }}" alt="{{ auth['name'] }}">
+          </a></li>
+        {% endfor %}
+    </ul>
+{% endif %}
