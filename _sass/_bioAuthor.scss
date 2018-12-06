@@ -1,0 +1,25 @@
+.post-author {
+  margin: 0;
+    overflow: hidden;
+    padding: 38px 0 5px;
+    border-top: 1px solid #e0e0e0;
+
+  .author-img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    overflow: hidden;
+  }
+
+  .author-content {
+    margin-left: 120px;
+    .author-social {
+      font-size: 14px;
+      color: #313131;
+      margin-right: 10px;
+    }
+  }
+
+}
