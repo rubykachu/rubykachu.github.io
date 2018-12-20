@@ -84,7 +84,11 @@ Tương tự với class method, Foo.class_bar thì class Foo được ngầm g�
 ```python
 >>> Foo.class_bar
 <bound method Foo.class_bar of <class '__main__.Foo'>>
+```
 
+<div class="merge-code"></div>
+
+```python
 >>> foo.class_bar
 <bound method Foo.class_bar of <class '__main__.Foo'>>
 ```
@@ -94,7 +98,10 @@ Riêng static method là trường hợp đặc biệt, mặc dù nó là một 
 ```python
 >>> foo.static_bar
 <function Foo.static_bar at 0x7f994f892b70>
+```
+<div class="merge-code"></div>
 
+```python
 >>> Foo.static_bar
 <function Foo.static_bar at 0x7f994f892b70>
 ```
