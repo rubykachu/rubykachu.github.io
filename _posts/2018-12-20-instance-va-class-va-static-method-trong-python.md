@@ -7,6 +7,7 @@ tags: Python OOP Instance Class Static
 author: minhtang
 description: Sự khác nhau giữa instnace method, class method và static method trong Python
 permalink: /su-khac-nhau-giua-instance-method-class-method-va-static-method-trong-python.html
+image: https://i.imgur.com/InAI9ul.jpg
 ---
 
 * content
@@ -15,7 +16,7 @@ permalink: /su-khac-nhau-giua-instance-method-class-method-va-static-method-tron
 
 Trong lập trình hướng đối tượng nói chung instance method và class method đều rất quan trọng. Một số ngôn ngữ như Python cung cấp thêm một loại method nữa là static method. Trong bài viết này, chúng ta sẽ tìm hiểu các loại phương này trong ngôn ngữ Python.
 
-![Instance method - Class method - Static method](https://files.realpython.com/media/Pythons-Instance-Class-and-Static-Methods-Demystified_Watermarked.5bce71bc29d0.jpg)
+![Instance method - Class method - Static method](https://i.imgur.com/InAI9ul.jpg)
 
 
 
