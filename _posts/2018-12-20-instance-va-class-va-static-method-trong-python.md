@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Instance method và Class method và Static method trong Python khác nhau như thế nào
-date: 2018-12-20 23:32:00 +0700
+title: Instance method - Class method và Static method trong Python khác nhau như thế nào
+date: 2018-12-20 21:32:00 +0700
 categories: Python
-tags: Python PythonAdvance InstanceMethod ClassMethod StaticMethod
+tags: Python OOP Instance Class Static
 author: minhtang
 description: Sự khác nhau giữa instnace method, class method và static method trong Python
-published: true
+permalink: /su-khac-nhau-giua-instance-method-class-method-va-static-method-trong-python.html
 ---
 
 * content
@@ -94,6 +94,7 @@ Riêng static method là trường hợp đặc biệt, mặc dù nó là một 
 ```python
 >>> foo.static_bar
 <function Foo.static_bar at 0x7f994f892b70>
+
 >>> Foo.static_bar
 <function Foo.static_bar at 0x7f994f892b70>
 ```
