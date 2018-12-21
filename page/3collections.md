@@ -12,6 +12,9 @@ type: page
 ### Rails
 * [Console Tricks in Rails 5](https://rubyplus.com/articles/3461-Console-Tricks-in-Rails-5){:target="_blank" rel="nofollow external noopener noreferrer"}
 
+### Python
+* [Real Python Tutorials](https://realpython.com/){:target="_blank" rel="nofollow external noopener noreferrer"}
+
 ### JavaScript
 * [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS){:target="_blank" rel="nofollow external noopener noreferrer"}
 
