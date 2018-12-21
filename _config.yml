@@ -28,7 +28,7 @@ description_footer: Chia sẽ kỹ thuật lập trình
 disqus_shortname: https-rubykachu-github-io
 
 # statistic analysis
-# google_analytics_id: UA-72449510-4
+google_analytics_id: UA-131275356-1
 
 # Build settings
 markdown: kramdown
