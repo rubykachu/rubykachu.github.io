@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cài đặt Python và quản lý version
-date: 2019-01-17 21:34:00 +0700
+date: 2019-01-17 21:00:00 +0700
 categories: Python
 tags: Python Pyenv
 author: minhtang
@@ -14,6 +14,7 @@ image: https://i.imgur.com/ppw5nzV.jpg
 {:toc}
 
 ![Cài đặt Python](https://i.imgur.com/ppw5nzV.jpg)
+
 
 
 
