@@ -7,7 +7,7 @@ tags: Python Pyenv
 author: minhtang
 description: Hướng dẫn cài đặt Python và quản lý các version trong python
 permalink: /cai-dat-python-va-moi-truong
-image: https://i.imgur.com/InAI9ul.jpg
+image: https://i.imgur.com/ppw5nzV.jpg
 ---
 
 * content
@@ -45,15 +45,27 @@ $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 
 Cuối cùng thì khởi động lại và kiểm tra phiên bản `pyenv` bằng lệnh `pyenv version`
 
+**Cài đặt python:**
+
 Từ giờ nếu như ta muốn cài python phiên bản nào thì với cú pháp sau:
 
 `pyenv install 3.7.2`
 
-Trong đó `3.7.2` là version của python. Nếu như muốn xoá phiên bản của python thì gõ lệnh:
+Trong đó `3.7.2` là version của python.
+
+Sau khi cài đặt python thi hãy kiểm tra version của python vừa cài đặt `python --version`
+
+**Gỡ cài đặt python:**
+
+Nếu như muốn xoá phiên bản của python thì gõ lệnh:
 
 `pyenv uninstall 3.7.2`
 
-Sau khi cài đặt python thi hãy kiểm tra version của python vừa cài đặt `python --version`
+**Thiết lập sử dụng vesion python**
+
+Nếu như ta có nhiều version python, nhưng muốn thiết lập mặc định một version nào đó làm chính thức thì gõ lệnh `python global 3.7.2`. Đối với lệnh này sẽ thiết lập python version 3.7.2 làm global.
+
+Còn nếu như tuỳ vào dự án với mỗi version khác nhau thì ta củng có thể thiết lập cho từng dự án bằng cách `python local 3.7.0`
 
 ## Cập nhập pyenv
 
@@ -87,3 +99,5 @@ $ brew install pyenv
 Hoặc xoá pyenv bằng homebrew
 
 ` brew uninstall pyenv`
+
+_[Dịch từ nguồn hackernoon](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)_
