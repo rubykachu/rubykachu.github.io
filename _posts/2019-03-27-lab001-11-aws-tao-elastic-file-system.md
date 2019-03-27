@@ -5,7 +5,7 @@ date: 2019-03-27 11:00:00 +0700
 categories: AWS
 tags: AWS LAB EFS
 author: minhtang
-description: 'LAB001-11: AWS - Tạo Elastic File Systen (EFS)'
+description: 'LAB001-11: AWS - Tạo Elastic File System (EFS)'
 permalink: /lab001-11-aws-tao-elastic-file-system
 image: https://i.imgur.com/je9uyhx.png
 ---

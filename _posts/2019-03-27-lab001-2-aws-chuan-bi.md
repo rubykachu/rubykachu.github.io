@@ -25,7 +25,7 @@ image: https://i.imgur.com/je9uyhx.png
 	- 2 Subnet Public có Route table: Add record 0.0.0.0/0 -> Internet gateway
 	- 2 Subnet Private có Route table: Add record 0.0.0.0/0 -> NatInstance
 	- 2 Subnet Private để dùng cho RDS
-4. Add Role Access Route 53 cho IAM user hoặc EC2: Để có quyền update đến Route53
+4. Add Role Access Route 53 cho IAM user hoặc EC2 để có quyền update đến Route53
 5. Tạo NatInstance, con này cũng dùng để làm bastion. Đặt ở subnet Public. Disabled check Source/Dest
 	- Sau khi Instance được tạo ra thì login vào viết Script để tự động update IP đến Route53. Mục đích để SSH bằng Domain và IP tự update đến Route53.
 6. Tạo Elastic File System (EFS)
