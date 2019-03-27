@@ -6,7 +6,7 @@ categories: AWS
 tags: AWS
 author: minhtang
 description: 'LAB001-2: AWS - Lên ý tưởng giải quyết bài tập'
-permalink: /lab001-yeu-cau-bai-tap-aws
+permalink: /lab001-2-aws-len-y-tuong-giai-quyet-bai-tap
 image: https://i.imgur.com/je9uyhx.png
 ---
 

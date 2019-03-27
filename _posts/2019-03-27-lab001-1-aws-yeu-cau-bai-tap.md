@@ -6,7 +6,7 @@ categories: AWS
 tags: AWS
 author: minhtang
 description: 'LAB001-1: AWS - Yêu cầu bài tập'
-permalink: /lab001-yeu-cau-bai-tap-aws
+permalink: /lab001-1-aws-yeu-cau-bai-tap
 image: https://i.imgur.com/je9uyhx.png
 ---
 
