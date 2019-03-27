@@ -103,6 +103,18 @@ python_version = "3.7"
 
 Bây giờ ta có thể sử dụng script như sau: `pipenv run server`
 
+### Code trên màn hình shell
+
+Chúng ta có thể sử dụng màn hình shell để có thể test code trực tiếp, ví dụ như thực hiện các phép toán hay truy vấn dữ liệu. Vậy cách vào màn hình shell như sau: `pipenv run python manage.py shell`
+
+Tại đây ta có thể làm mọi thứ liên quan đến python và django
+
+```
+a = 1
+b = 2
+a + b
+>>> 3
+```
 [Tài liệu pipenv](https://pipenv.readthedocs.io/en/latest/)
 
 _[Dịch từ nguồn hackernoon](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)_
