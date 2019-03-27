@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-15: AWS - Cấu hình route53 và truy cập website'
 date: 2019-03-27 11:00:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB route53 ALB
 author: minhtang
 description: 'LAB001-15: AWS - Cấu hình route53 và truy cập website'
 permalink: /lab001-15-aws-cau-hinh-route53-va-truy-cap-website
@@ -14,13 +14,13 @@ image: https://i.imgur.com/je9uyhx.png
 {:toc}
 
 - Vào route53
-- Tạo `record A` và chọn ELB
+- Tạo `record A` và chọn ALB
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/27756008/54742369-cbcf3000-4bf3-11e9-9d5f-e7d0651450e2.png)
-
-
-
-
 
 - Tiến hành truy cập đến `route53.xyz`
 
