@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-9: AWS - Cấp quyền cho phép chỉnh sửa Route53'
 date: 2019-03-27 10:30:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB route53 IAM Role
 author: minhtang
 description: 'LAB001-9: AWS - Cấp quyền cho phép chỉnh sửa Route53'
 permalink: /lab001-9-aws-cap-quyen-cho-phep-chinh-sua-route53

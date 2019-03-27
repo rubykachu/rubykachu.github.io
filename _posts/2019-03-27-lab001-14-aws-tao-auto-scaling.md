@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-14: AWS - Tạo Auto Scaling'
 date: 2019-03-27 11:00:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB auto-scaling
 author: minhtang
 description: 'LAB001-14: AWS - Tạo Auto Scaling'
 permalink: /lab001-14-aws-tao-auto-scaling

@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-10: AWS - Tự động cập nhập route53 khi EC2 reboot'
 date: 2019-03-27 11:00:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB route53 EC2
 author: minhtang
 description: 'LAB001-10: AWS - Tự động cập nhập route53 khi EC2 reboot'
 permalink: /lab001-10-aws-tu-dong-cap-nhap-route53-khi-ec2-reboot

@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-5: AWS - Tạo Subnet'
 date: 2019-03-27 10:30:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB subnet
 author: minhtang
 description: 'LAB001-5: AWS - Tạo Subnet'
 permalink: /lab001-5-aws-tao-subnet

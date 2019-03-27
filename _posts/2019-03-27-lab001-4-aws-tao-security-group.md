@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-4: AWS - Tạo Security Group'
 date: 2019-03-27 10:15:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB security-group SG
 author: minhtang
 description: 'LAB001-4: AWS - Tạo Security Group'
 permalink: /lab001-4-aws-tao-security-group

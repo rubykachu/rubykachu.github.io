@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-13: AWS - Tạo Application Load balancing (ALB)'
 date: 2019-03-27 11:00:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB ALB ELB
 author: minhtang
 description: 'LAB001-13: AWS - Tạo Application Load balancing (ALB)'
 permalink: /lab001-13-aws-tao-application-load-balancing

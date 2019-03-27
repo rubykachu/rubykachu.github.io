@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-7: AWS - Tạo Nat Instance'
 date: 2019-03-27 10:30:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB Bastion EC2 NatInstance
 author: minhtang
 description: 'LAB001-7: AWS - Tạo Nat Instance'
 permalink: /lab001-7-aws-tao-nat-instance

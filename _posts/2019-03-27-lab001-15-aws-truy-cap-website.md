@@ -6,7 +6,7 @@ categories: AWS
 tags: AWS LAB
 author: minhtang
 description: 'LAB001-15: AWS - Cấu hình route53 và truy cập website'
-permalink: /lab001-15-aws-truy-cap-website
+permalink: /lab001-15-aws-cau-hinh-route53-va-truy-cap-website
 image: https://i.imgur.com/je9uyhx.png
 ---
 

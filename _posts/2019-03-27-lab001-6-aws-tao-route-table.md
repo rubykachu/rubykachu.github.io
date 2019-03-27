@@ -3,7 +3,7 @@ layout: post
 title: 'LAB001-6: AWS - Tạo Route Table'
 date: 2019-03-27 10:30:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB route-table
 author: minhtang
 description: 'LAB001-6: AWS - Tạo Route Table'
 permalink: /lab001-6-aws-tao-route-table
