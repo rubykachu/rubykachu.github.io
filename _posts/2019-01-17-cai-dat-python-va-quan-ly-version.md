@@ -14,7 +14,7 @@ image: https://i.imgur.com/ppw5nzV.jpg
 {:toc}
 
 ![Cài đặt Python](https://i.imgur.com/ppw5nzV.jpg)
-Giống như nhiều ngôn ngữ lập trình khác, Python hỗ trợ các thư viện và framework của bên thứ ba cực kỳ hữu dụng giúp bạn có thể dùng lại tránh việc mất công viết lại từ đầu. Tuy nhiên việc tải xuống, cài đặt và quản lý các package này có thể gây khó chịu và tốn thời gian, đó là lý do tại sao các nhà phát triển Python dựa vào một công cụ đặc biệt gọi là PIP cho Python để giúp mọi thứ dễ dàng và nhanh chóng hơn.
+Giống như nhiều ngôn ngữ lập trình khác, Python hỗ trợ các thư viện và framework của bên thứ ba cực kỳ hữu dụng giúp ta có thể dùng lại tránh việc mất công viết lại từ đầu. Tuy nhiên việc tải xuống, cài đặt và quản lý các package này có thể gây khó chịu và tốn thời gian, đó là lý do tại sao các nhà phát triển Python dựa vào một công cụ đặc biệt gọi là PIP cho Python để giúp mọi thứ dễ dàng và nhanh chóng hơn.
 
 
 

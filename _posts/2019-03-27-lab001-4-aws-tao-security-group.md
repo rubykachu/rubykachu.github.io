@@ -12,13 +12,14 @@ image: https://i.imgur.com/je9uyhx.png
 
 * content
 {:toc}
+**Security Group** là một tường lửa ảo (Virtual Firewall) để điều khiển truy cập giữa các EC Instance. Khi khởi tạo 1 instance, ta cần chỉ ra 1 hoặc nhiều security group. Và sau khi tạo 1 instance ta có thể thay đổi Security Group đó.
+
+
+
 
 **1. Tạo Security Group dùng cho Internet**
 
 ![image](https://user-images.githubusercontent.com/27756008/54732029-2781c500-4bc4-11e9-8b2b-9e8e6d2207b9.png)
-
-
-
 
 ![image](https://user-images.githubusercontent.com/27756008/54732047-35cfe100-4bc4-11e9-8c8e-3d25cced655e.png)
 

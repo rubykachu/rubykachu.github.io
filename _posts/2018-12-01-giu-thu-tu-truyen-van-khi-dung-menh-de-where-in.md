@@ -106,4 +106,4 @@ Với câu lệnh trên thì kết quả trả ra sẽ là:
 | 3 | Japanese |
 | 1 | English |
 
-Cho nên các bạn cần lưu ý khi sử dụng truy vấn WHERE IN đối với các bài toán yêu cầu cần sự chính xác thứ tự cho kết quả đầu ra.
+Cho nên ta cần lưu ý khi sử dụng truy vấn WHERE IN đối với các bài toán yêu cầu cần sự chính xác thứ tự cho kết quả đầu ra.

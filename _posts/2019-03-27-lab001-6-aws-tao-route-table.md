@@ -12,15 +12,15 @@ image: https://i.imgur.com/je9uyhx.png
 
 * content
 {:toc}
+**Route Table** được dùng để liên kết đến các subnet. RTB sẽ định tuyến hướng đi cho Subnet
+
+
 
 **1. Tạo Route Table cho Public Subnet**
-
 ![image](https://user-images.githubusercontent.com/27756008/54732322-bfcc7980-4bc5-11e9-9feb-d95eb9d7ede2.png)
 
-
-
-
 ![image](https://user-images.githubusercontent.com/27756008/54732355-dd99de80-4bc5-11e9-80ea-e92218d07c08.png)
+
 ![image](https://user-images.githubusercontent.com/27756008/54732363-eb4f6400-4bc5-11e9-9a6b-ae0f22f7b832.png)
 
 Liên kết Route table vừa tạo đến Subnet Public

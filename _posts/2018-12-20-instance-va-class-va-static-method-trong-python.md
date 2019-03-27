@@ -71,7 +71,7 @@ executing static_bar(args)
 executing static_bar(args)
 ```
 
-Về cơ bản, phương thức cũng giống như hàm. Tuy nhiên, instance_bar là một instance method, và khi bạn gọi foo.instance_bar thì Python sẽ ngầm truyền foo thành tham số thứ nhất của phương thức đó. Và foo.instance_bar không còn là hàm nguyên gốc ban đầu mà là một phiên bản đã được "bind" cho foo.
+Về cơ bản, phương thức cũng giống như hàm. Tuy nhiên, instance_bar là một instance method, và khi ta gọi foo.instance_bar thì Python sẽ ngầm truyền foo thành tham số thứ nhất của phương thức đó. Và foo.instance_bar không còn là hàm nguyên gốc ban đầu mà là một phiên bản đã được "bind" cho foo.
 
 ```python
 >>> foo.instance_bar

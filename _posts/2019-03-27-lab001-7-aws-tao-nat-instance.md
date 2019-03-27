@@ -16,11 +16,11 @@ image: https://i.imgur.com/je9uyhx.png
 **1. Tạo NatInstance, đồng thời cũng là Bastion**
 
 Chúng ta có thể sử dụng NAT Gateway thay cho NAT Instance. Nhưng để tiết kiệm chi phí thì ta sẽ tạo NAT Instance.
+Việc tạo Nat Instance giúp các EC2 trong private subnet có thể đi ra ngoài internet. Để các EC2 trong private subnet đi được internet thì Nat Instance phải nằm trong Public Subnet
+
+
 
 ![image](https://user-images.githubusercontent.com/27756008/54732768-1dfa5c00-4bc8-11e9-8dcc-c5ce5bb59f37.png)
-
-
-
 
 ![image](https://user-images.githubusercontent.com/27756008/54732781-35d1e000-4bc8-11e9-8076-212872982c03.png)
 

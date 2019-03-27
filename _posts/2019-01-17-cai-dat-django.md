@@ -14,14 +14,14 @@ image: https://i.imgur.com/DFfcfkM.jpg
 {:toc}
 
 ![Cài đặt Django](https://i.imgur.com/DFfcfkM.jpg)
-Để cài đặt được Django yêu cầu chúng ta phải có python. Ở bài trước mình đã hướng dẫn các bạn cách cài đặt Python, chúng ta hãy xem qua bài [Hướng dẫn cài đặt Python](https://rubykachu.github.io/cai-dat-python-va-moi-truong)
+Để cài đặt được Django yêu cầu chúng ta phải có python. Ở bài trước mình đã hướng dẫn cách cài đặt Python, chúng ta hãy xem qua bài [Hướng dẫn cài đặt Python](https://rubykachu.github.io/cai-dat-python-va-moi-truong)
 
 
 
 
 ## Pipenv là gì và hoạt động như thế nào?
 
-**Pipenv** tạm gọi nó là một chương trình dùng để quản lý các gói thư viện (dependencies) của Django. Thay vì sử dụng file `requirements.txt` trong project và quản lý bằng môi trường ảo `virtualenvs`. Bây giờ bạn sẽ sử dụng `Pipfile` trong project để làm tất cả điều đó một cách tự động.
+**Pipenv** tạm gọi nó là một chương trình dùng để quản lý các gói thư viện (dependencies) của Django. Thay vì sử dụng file `requirements.txt` trong project và quản lý bằng môi trường ảo `virtualenvs`. Bây giờ ta sẽ sử dụng `Pipfile` trong project để làm tất cả điều đó một cách tự động.
 
 Bắt đầu cài đặt thông qua `pip`
 
