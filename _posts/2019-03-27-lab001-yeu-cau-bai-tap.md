@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'LAB001: AWS - Yêu cầu bài tập'
+title: 'LAB001-1: AWS - Yêu cầu bài tập'
 date: 2019-03-27 09:00:00 +0700
 categories: AWS
 tags: AWS
 author: minhtang
-description: Yêu cầu bài tập aws - LAB001
+description: 'LAB001-1: AWS - Yêu cầu bài tập'
 permalink: /lab001-yeu-cau-bai-tap-aws
 image: https://i.imgur.com/je9uyhx.png
 ---
