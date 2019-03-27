@@ -17,7 +17,7 @@ permalink: /:categories/:title.html
 # other links
 twitter_username: vhquocminhit
 facebook_username: tangquocminh
-github_username:  rubykachu
+github_username: rubykachu
 email: vhquocminhit@gmail.com
 # linkedIn_username: rubykachu
 # dribbble_username:
@@ -48,7 +48,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-paginate: 6
+paginate: 10
 
 jekyll_admin:
   hidden_links:

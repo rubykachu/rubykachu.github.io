@@ -272,6 +272,8 @@ You can use 3 \`\`\` to write code block.
 
 ### 5. Local launch
 
+use command: `jekyll build --verbose` to view build process in detail.
+
 use command:
 
 ```
