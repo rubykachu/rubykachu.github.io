@@ -12,9 +12,15 @@
     box-sizing: border-box;
     margin: 0 auto;
     // word-break: break-all;
-    img {
-        border: 1px solid #ccc;
-        border-bottom: 4px solid #ccc;
+    .article-content {
+        img {
+            border: 1px solid #ccc;
+            border-bottom: 4px solid #ccc;
+            -webkit-border-radius: box-sizing;
+            -moz-border-radius: box-sizing;
+            -ms-border-radius: box-sizing;
+            border-radius: box-sizing;
+        }
     }
     .left {
         width: 75%;

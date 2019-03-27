@@ -33,7 +33,7 @@ layout: default
 
         </div>
         <hr>
-        <article itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="article-content" itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>
 
@@ -45,7 +45,7 @@ layout: default
                 {% for thisTag in page.tags %}
                     {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
                         {% if hasSimilar.size == 0 %}
-                        <h2 id="similar_posts">Similar Posts</h2>
+                        <h2 id="similar_posts">Bài viết liên quan</h2>
                         <ul>
                         {% endif %}
                         <li class="relatedPost">
@@ -61,11 +61,14 @@ layout: default
                 {% endfor %}
             {% endfor %}
         {% endfor %}
+
         {% if hasSimilar.size > 0 %}
             </ul>
         {% endif %}
 
-        {% include previousAndNext.html %}
+        {% if hasSimilar.size == 0 %}
+            {% include previousAndNext.html %}
+        {% endif %}
 
         {% include bioAuthor.html %}
 
