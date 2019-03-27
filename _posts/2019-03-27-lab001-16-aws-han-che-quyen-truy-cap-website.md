@@ -29,4 +29,5 @@ Vào Route53, tạo record có subdomain `admin.route53.xyz`
 Sau khi config xong thì chờ vài phút để update record.
 
 Tiến hành truy cập vào website `admin.route53.xyz`
+
 ![image](https://user-images.githubusercontent.com/27756008/54797099-675cb100-4c85-11e9-87be-3e02aa4973e8.png)

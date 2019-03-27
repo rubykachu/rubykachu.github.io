@@ -22,6 +22,7 @@ Có thể tạo 1 hoặc nhiều subnet trên một VPC. Tuy nhiên ta sẽ bị
 Có 2 loại subnet
 - Public Subnet: là 1 subnet được định tuyến tới 1 internet gateway. 1 instance trong public subnet có thể giao tiếp với internet thông qua địa chỉ IPv4 (public IPv4 address hoặc Elastic IP address).
 - Private Subnet: Ngược với Public Subnet, Private Subnet là một subnet không được định tuyến tới một internet gateway. Ta không thể truy cập vào các instance trên một Private Subnet từ internet.
+
 **1. Tạo Public Subnet (10.0.1.0/24) ở Zone us-east-1a và tương tự cho (10.0.2.0/24) ở Zone us-east-1b**
 
 ![image](https://user-images.githubusercontent.com/27756008/54731626-ebe5fb80-4bc1-11e9-88d2-73e69d5ad0b5.png)

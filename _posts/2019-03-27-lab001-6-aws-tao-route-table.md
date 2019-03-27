@@ -39,4 +39,4 @@ Sau khi liên kết thì add Routes
 **2. Tạo Route table cho Private**
 
 Tương tự như trên, nhưng phần Association ta sẽ liên kết đến Subnet Private.
-Phần Add Route thì chúng ta chưa setting được, bởi vì chưa có NatInstance. Nhưng tạm thời thì sẽ tạo ra và để đó (tức sẽ chưa đi được internet). Chúng ta sẽ qua phần 7.2 để sau khi tạo NatInstance thì sẽ add Route cho nó.
+Phần Add Route thì chúng ta chưa setting được, bởi vì chưa có NatInstance. Nhưng tạm thời thì sẽ tạo ra và để đó (tức sẽ chưa đi được internet). Chúng ta sẽ qua phần [LAB001-7](./lab001-7-aws-tao-nat-instance) và [LAB001-8](./lab001-8-aws-them-route-table-cho-private-subnet) để sau khi tạo NatInstance thì sẽ add Route cho nó.

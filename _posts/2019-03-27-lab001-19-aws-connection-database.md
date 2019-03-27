@@ -24,8 +24,8 @@ Ta sẽ dùng 2 cách để kiểm tra kết nối đến database thành công 
 
 **2. Login bằng ssh từ ec2**
 
-[Hướng dẫn](https://stackoverflow.com/questions/49573258/installing-postgresql-client-v10-on-aws-amazon-linux-ec2-ami)
-Cần phải cài đặt postgresql client để connect tới RDS
+[Hướng dẫn](https://stackoverflow.com/questions/49573258/installing-postgresql-client-v10-on-aws-amazon-linux-ec2-ami) cài đặt PostgreSQL client để connect tới RDS
+
 ```bash
 sudo yum update
 sudo yum install -y  https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-redhat10-10-2.noarch.rpm
@@ -47,6 +47,9 @@ psql -h <host_end_point> -U <username> -d <database>
 **3. Một số lệnh cơ bản**
 
 show databases: `\l`
+
 select database: `\c <database>`
+
 show tables: `\dt`
+
 select table: `SELECT * FROM <table_name>`
