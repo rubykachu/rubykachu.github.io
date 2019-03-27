@@ -14,16 +14,13 @@ image: https://i.imgur.com/6npLaDl.jpg
 {:toc}
 
 ![Cài đặt Python](https://i.imgur.com/6npLaDl.jpg)
-
-
-
-## Cài đặt server plus
 Mục đích ta cài đặt server plus để có thể debug code tốt hơn và có thể autoreload module tại màn hình shell một cách realtime khi có sự thay đổi.
-
 Đầu tiên chúng ta hãy cài đặt gói `django-extensions`
 
-`$ pipenv install django-extensions` hoặc `pip install django-extensions`
 
+
+
+`$ pipenv install django-extensions` hoặc `pip install django-extensions`
 Việc sử dụng `pipenv` hay `pip` là tuỳ các bạn. Ở đây mình sẽ sử dụng `pipenv`
 
 Sau khi cài đặt chúng ta sẽ vào file `settings.py` và bổ sung:

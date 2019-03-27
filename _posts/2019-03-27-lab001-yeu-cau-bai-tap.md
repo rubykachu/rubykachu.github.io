@@ -13,14 +13,15 @@ image: https://i.imgur.com/je9uyhx.png
 * content
 {:toc}
 
-![LAB001](https://i.imgur.com/je9uyhx.png)
-
-
-
+![LAB001](https://i.imgur.com/iODHrKE.jpg)
 Hãy tạo hệ thống aws như sau:
 - 1 VPC.
 - 2 subnet public, 2 subnet private, 2 subnet datastore (private) Chia đều 2 zone.
 - Làm `t2.micro` làm NAT instance/vừa làm bastion. Sử dụng IP public động nhưng tự cập nhập IP tới record route53 mỗi khi stop/start. Tức dùng domain để connect tới bastion mà không sử dụng IP.
+
+
+
+
 - Autoscaling hosting web server: `<name>.asiantech.vn` => Welcome to <Private IP>. Các instance tạo ra ở *private subnet*. Tạo target tracking để tăng và giảm size theo CPU.
 - Có *Application* loadbalancer.
 - Tự động redirect qua https://<name>.asiantech.vn (Màu xanh).

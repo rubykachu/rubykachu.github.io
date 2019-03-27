@@ -14,13 +14,10 @@ image: https://i.imgur.com/DFfcfkM.jpg
 {:toc}
 
 ![Cài đặt Django](https://i.imgur.com/DFfcfkM.jpg)
-
-
-
-
-## Cài đặt Python
-
 Để cài đặt được Django yêu cầu chúng ta phải có python. Ở bài trước mình đã hướng dẫn các bạn cách cài đặt Python, chúng ta hãy xem qua bài [Hướng dẫn cài đặt Python](https://rubykachu.github.io/cai-dat-python-va-moi-truong)
+
+
+
 
 ## Pipenv là gì và hoạt động như thế nào?
 
