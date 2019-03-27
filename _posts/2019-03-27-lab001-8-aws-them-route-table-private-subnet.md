@@ -5,8 +5,8 @@ date: 2019-03-27 10:30:00 +0700
 categories: AWS
 tags: AWS LAB
 author: minhtang
-description: 'LAB001-7: AWS - Thêm route table cho private subnet'
-permalink: /lab001-7-aws-them-route-table-cho-private-subnet
+description: 'LAB001-8: AWS - Thêm route table cho private subnet'
+permalink: /lab001-8-aws-them-route-table-cho-private-subnet
 image: https://i.imgur.com/je9uyhx.png
 ---
 
