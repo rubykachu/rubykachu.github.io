@@ -3,10 +3,10 @@ layout: post
 title: 'LAB001-16: AWS - Hạn chế quyền truy cập website'
 date: 2019-03-27 11:00:00 +0700
 categories: AWS
-tags: AWS LAB
+tags: AWS LAB route53 ALB
 author: minhtang
 description: 'LAB001-16: AWS - Hạn chế quyền truy cập website'
-permalink: /lab001-16-aws-truy-cap-website
+permalink: /lab001-16-aws-han-che-quyen-truy-cap-website
 image: https://i.imgur.com/je9uyhx.png
 ---
 
