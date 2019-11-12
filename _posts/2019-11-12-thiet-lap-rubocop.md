@@ -9,7 +9,7 @@ description: "Dùng Rubocop để kiểm tra code style dựa trên ruby-style-g
 permalink: /thiet-la-rubocop-trong-rails
 ---
 
-- content
+* content
   {:toc}
 
 Rubocop là một công cụ để kiểm tra code style dựa trên ruby-style-guide, được xây dựng phục vụ cho developers.
@@ -18,7 +18,10 @@ Rubocop sử dụng các quy tắc được định sẵn để so sánh chúng 
 
 Sử dụng Rubocop trong projects giúp chúng ta tiết kiệm thời gian cho việc review coding convention và đảm bảo code không mắc phải những lỗi convention cơ bản.
 
---break--
+
+
+
+
 
 ## Cài đặt
 

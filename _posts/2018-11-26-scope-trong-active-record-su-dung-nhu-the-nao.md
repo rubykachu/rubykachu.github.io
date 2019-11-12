@@ -7,12 +7,10 @@ tags: Rails Scope ActiveRecord
 author: minhtang
 ---
 
-- content
+* content
   {:toc}
 
 Đối với developer Rails thì việc sử dụng scope và class method khá quen thuộc, nhưng sử dụng nó như thế nào cho đúng thì ta cùng xem xét ví dụ bên dưới:
-
-\n\n\n\n
 
 ```ruby
 # model/company_contract.rb
@@ -28,6 +26,9 @@ class CompanyContract < ApplicationRecord
     }
 end
 ```
+
+
+
 
 Trong đoạn code trên ta sử dụng `scope` để chỉ lấy ra **duy nhất một kết quả** dựa vào đối số truyền vào. **Nếu như tìm thấy dữ liệu** thì kết quả đều cho ra như nhau. Nhưng điều đáng lưu ý là giả sử như nếu không có dữ liệu trả về thì điều gì xảy ra?
 
