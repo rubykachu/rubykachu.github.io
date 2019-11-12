@@ -28,9 +28,6 @@ class CompanyContract < ApplicationRecord
 end
 ```
 
-
-
-
 Trong đoạn code trên ta sử dụng `scope` để chỉ lấy ra **duy nhất một kết quả** dựa vào đối số truyền vào. **Nếu như tìm thấy dữ liệu** thì kết quả đều cho ra như nhau. Nhưng điều đáng lưu ý là giả sử như nếu không có dữ liệu trả về thì điều gì xảy ra?
 
 Bởi vì `scope` là một `Relation` cho nên nếu như tìm không ra dữ liệu thì kết quả sẽ trả ra tất cả các Record có trong bảng CompanyContract.
