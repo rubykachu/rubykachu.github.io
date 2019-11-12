@@ -11,11 +11,14 @@ permalink: /thiet-la-rubocop-trong-rails
 
 - content
   {:toc}
-  Rubocop là một công cụ để kiểm tra code style dựa trên ruby-style-guide, được xây dựng phục vụ cho developers.
+
+Rubocop là một công cụ để kiểm tra code style dựa trên ruby-style-guide, được xây dựng phục vụ cho developers.
 
 Rubocop sử dụng các quy tắc được định sẵn để so sánh chúng với code của bạn rồi đưa ra các thông báo lỗi.
 
 Sử dụng Rubocop trong projects giúp chúng ta tiết kiệm thời gian cho việc review coding convention và đảm bảo code không mắc phải những lỗi convention cơ bản.
+
+--break--
 
 ## Cài đặt
 

@@ -12,6 +12,8 @@ author: minhtang
 
 Đối với developer Rails thì việc sử dụng scope và class method khá quen thuộc, nhưng sử dụng nó như thế nào cho đúng thì ta cùng xem xét ví dụ bên dưới:
 
+\n\n\n\n
+
 ```ruby
 # model/company_contract.rb
 class CompanyContract < ApplicationRecord
