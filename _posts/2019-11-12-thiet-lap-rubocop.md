@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Thiết lập Rubocop trong Rails"
+title: "Hướng dẫn bắt lỗi convention trong Rails"
 date: 2019-11-12 10:54:00 +0700
 categories: Rails
-tags: Rubocop lint rails
+tags: rubocop reek lint rails
 author: minhtang
-description: "Dùng Rubocop để kiểm tra code style dựa trên ruby-style-guide"
+description: "Hướng dẫn bắt lỗi convention trong Rails, giúp code tối ưu và tiết kiệm thời gian khi review"
 permalink: /thiet-la-rubocop-trong-rails
 ---
 
 * content
 {:toc}
-Rubocop là một công cụ để kiểm tra code style dựa trên ruby-style-guide, được xây dựng phục vụ cho developers.
+Rubocop, reek, slim-lint là một công cụ để kiểm tra code style được xây dựng phục vụ cho developers.
 
 Rubocop sử dụng các quy tắc được định sẵn để so sánh chúng với code của bạn rồi đưa ra các thông báo lỗi.
 
@@ -31,11 +31,22 @@ group :development, :test do
   gem 'rubocop-performance'
   gem 'rubocop-rails'
   gem 'reek'
+  gem 'slim'
+end
+
+group :development do
+  # Lint
+  gem 'slim_lint'
 end
 ```
 
-Sau khi `bundle install` thì tạo file `.rubocop.yml` trong thư mục root của dự án
+Sau khi `bundle install` thì tạo file `.rubocop.yml`, `.slim-lint.yml`, `.reek`, trong thư mục root của dự án
 
+### Rubocop
+
+(Document)[https://github.com/rubocop-hq/rubocop]
+
+**.rubocop.yml**
 ```yaml
 require:
   - rubocop-performance
@@ -303,7 +314,7 @@ Performance/UnfreezeString:
   Enabled: true
 ```
 
-## Thực thi
+**Thực thi rubocop**
 
 Chạy rubocop không đối số để kiểm tra tất cả các file Ruby ở trong thư mục hiện tại. `rubocop`
 
@@ -314,3 +325,138 @@ Chạy riêng 1 file `rubocop app/models/user.rb`
 Hoặc có thể chạy đồng thời các thư mục và các file khác nhau `rubocop app/models/user.rb app/controllers/ app/views/test/index.rb`
 
 Muốn autofix thì thêm option `-a`
+
+### Slim lint
+
+[Document](https://github.com/sds/slim-lint)
+
+**.slim-lint.yml**
+```yaml
+# Default application configuration that all configurations inherit from.
+#
+# This is an opinionated list of which hooks are valuable to run and what their
+# out of the box settings should be.
+
+# Whether to ignore frontmatter at the beginning of Slim documents for
+# frameworks such as Jekyll/Middleman
+skip_frontmatter: false
+
+linters:
+  CommentControlStatement:
+    enabled: true
+
+  ConsecutiveControlStatements:
+    enabled: true
+    max_consecutive: 2
+
+  ControlStatementSpacing:
+    enabled: true
+
+  EmptyControlStatement:
+    enabled: true
+
+  EmptyLines:
+    enabled: true
+
+  FileLength:
+    enabled: false
+    max: 300
+
+  LineLength:
+    enabled: true
+    max: 180
+
+  RedundantDiv:
+    enabled: true
+
+  RuboCop:
+    enabled: true
+    # These cops are incredibly noisy since the Ruby we extract from Slim
+    # templates isn't well-formatted, so we ignore them.
+    # WARNING: If you define this list in your own .slim-lint.yml file, you'll
+    # be overriding the list defined here.
+    ignored_cops:
+      - Layout/AlignArguments
+      - Layout/AlignArray
+      - Layout/AlignHash
+      - Layout/AlignParameters
+      - Layout/EmptyLineAfterGuardClause
+      - Layout/FirstParameterIndentation
+      - Layout/IndentArray
+      - Layout/IndentationConsistency
+      - Layout/IndentationWidth
+      - Layout/InitialIndentation
+      - Layout/MultilineArrayBraceLayout
+      - Layout/MultilineAssignmentLayout
+      - Layout/MultilineHashBraceLayout
+      - Layout/MultilineMethodCallBraceLayout
+      - Layout/MultilineMethodCallIndentation
+      - Layout/MultilineMethodDefinitionBraceLayout
+      - Layout/MultilineOperationIndentation
+      - Layout/TrailingBlankLines
+      - Layout/TrailingWhitespace
+      - Lint/BlockAlignment
+      - Lint/EndAlignment
+      - Lint/Void
+      - Metrics/BlockLength
+      - Metrics/BlockNesting
+      - Metrics/LineLength
+      - Naming/FileName
+      - Style/FrozenStringLiteralComment
+      - Style/IfUnlessModifier
+      - Style/Next
+      - Style/WhileUntilModifier
+
+  Tab:
+    enabled: true
+
+  TagCase:
+    enabled: true
+
+  TrailingBlankLines:
+    enabled: true
+
+  TrailingWhitespace:
+    enabled: true
+```
+
+**Thực thi slim-lint**
+
+Cho folder cụ thể `slim-lint app/views/`
+Cho những file slim trong thư mục app: `slim-lint app/**/*.slim`
+
+### Reek code smell
+
+(Document)[https://github.com/troessner/reek]
+
+```yaml
+#https://github.com/troessner/reek#working-with-rails
+directories:
+  "app/controllers":
+    IrresponsibleModule:
+      enabled: false
+    NestedIterators:
+      max_allowed_nesting: 2
+    UnusedPrivateMethod:
+      enabled: false
+    InstanceVariableAssumption:
+      enabled: false
+  "app/helpers":
+    IrresponsibleModule:
+      enabled: false
+    UtilityFunction:
+      enabled: false
+  "app/mailers":
+    InstanceVariableAssumption:
+      enabled: false
+  "app/models":
+    InstanceVariableAssumption:
+      enabled: false
+
+### Excluding directories
+# Directories and files below will not be scanned at all
+exclude_paths:
+  - db/migrate
+  - db/fixtures/
+  - vendor/bundle/
+```
